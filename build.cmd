@@ -1,1 +1,1 @@
-docker build -t my-js-game .
+docker build -t 2048-js-game .

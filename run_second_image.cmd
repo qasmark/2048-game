@@ -1,1 +1,1 @@
-docker run -p 8081:8080 my-js-game
+docker run -p 8081:8080 2048-js-game
