@@ -1,1 +1,1 @@
-docker build -t 2048-js-game .
+docker build -t 2048-js-game:latest -t 2048-js-game:0.2 .

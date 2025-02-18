@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  app1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      NODE_ENV: production
+    volumes:
+      - .:/usr/src/app
+
+  app2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8080"
+    environment:
+      NODE_ENV: production
+    volumes:
+      - .:/usr/src/app
