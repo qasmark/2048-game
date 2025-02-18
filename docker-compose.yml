@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    image: 2048-js-game:latest
     ports:
       - "8080:8080"
     environment:
@@ -16,6 +17,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    image: 2048-js-game:latest 
     ports:
       - "8081:8080"
     environment:
